@@ -20,11 +20,11 @@ contract Beta {
     }
 
     function triggerCallback(uint nonce) external {
-        require (nonce == lowest_nonce, "Message priority incorrect");
-//        if (nonce > lowest_nonce) {
-//            console.log(format('Received - {}, but wanted - {}', nonce, lowest_nonce));
-//            return;
-//        }
+//        require (nonce == lowest_nonce, 9999);
+        if (nonce > lowest_nonce) {
+            console.log(format('Received - {}, but wanted - {}', nonce, lowest_nonce));
+            return;
+        }
         lowest_nonce++;
     }
 }

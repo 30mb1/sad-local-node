@@ -76,12 +76,12 @@ CALLREF {
 THROW 0
 
 .macro triggerCallback_c4078e36_internal_macro
-.loc ../contracts/Beta.sol, 23
+.loc ../contracts/Beta.sol, 24
 DUP
 GETGLOB 11
 GREATER
 PUSHCONT {
-	.loc ../contracts/Beta.sol, 24
+	.loc ../contracts/Beta.sol, 25
 	TUPLE 0
 	NEWC
 	PUSHSLICE x5265636569766564202d20
@@ -113,7 +113,7 @@ PUSHCONT {
 	.loc ../contracts/Beta.sol, 0
 }
 IFJMP
-.loc ../contracts/Beta.sol, 27
+.loc ../contracts/Beta.sol, 28
 DROP
 GETGLOB 11
 INC
